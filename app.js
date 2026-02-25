@@ -6,9 +6,9 @@ const BG = "#f1f1e4";
 const DEFAULT_NAME = "ГЕРАААА";
 
 const ASSETS = {
-  stripes: "https://www.figma.com/api/mcp/asset/11d5c7d0-7d2a-45bc-882b-198622a486ff",
-  hero: "https://www.figma.com/api/mcp/asset/b287ac84-fadd-4c30-bec9-14d71244307c",
-  logo: "https://www.figma.com/api/mcp/asset/74818229-32a7-4369-8c8e-63c9aa0ded5e",
+  stripes: "assets/stripes.png",
+  hero: "assets/art-image.png",
+  logo: "assets/logo%2012.01.25.png",
 };
 
 const card = document.getElementById("card");
