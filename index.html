@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BD Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <aside class="panel" aria-label="Card controls">
+        <h2 class="panel-title">Пирс 5 || Генератор открыток</h2>
+
+        <label class="field-label" for="personName">Имя получателя</label>
+        <input id="personName" class="field-input" type="text" maxlength="24" value="ГЕРАААА" />
+
+        <button id="downloadBtn" class="button" type="button">Скачать PNG</button>
+        <p id="status" class="status" aria-live="polite">Готово</p>
+      </aside>
+
+      <section class="card-wrap" aria-label="Birthday card">
+        <div class="card-frame">
+          <div class="card" id="card">
+          <div class="bg" aria-hidden="true"></div>
+
+          <img
+            class="stripes"
+            src="assets/stripes.png"
+            alt=""
+            aria-hidden="true"
+          />
+
+          <div class="hero" aria-hidden="true">
+            <img
+              class="hero-image"
+              src="assets/art-image.png"
+              alt=""
+            />
+          </div>
+
+          <div class="logo-container" aria-hidden="true"></div>
+          <img
+            class="logo"
+            src="assets/logo%2012.01.25.png"
+            alt=""
+            aria-hidden="true"
+          />
+
+          <h1 class="title" aria-label="Card title">
+            <span class="title-line">С ДНЕМ РОЖДЕНИЯ,</span>
+            <span id="nameLine" class="title-line">ГЕРАААА!</span>
+          </h1>
+
+          <p class="body">
+            От всей нашей команды<br />
+            желаем жизненного оптимизма,<br />
+            доброй удачи на пути, успешной<br />
+            реализации идей и планов, ярких<br />
+            впечатлений и положительных<br />
+            эмоций.
+          </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
